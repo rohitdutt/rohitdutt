@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/rohitdutt/static/css/main.afbbc47d.chunk.css",
+    "main.js": "/rohitdutt/static/js/main.5b066905.chunk.js",
+    "main.js.map": "/rohitdutt/static/js/main.5b066905.chunk.js.map",
+    "runtime-main.js": "/rohitdutt/static/js/runtime-main.89c15f90.js",
+    "runtime-main.js.map": "/rohitdutt/static/js/runtime-main.89c15f90.js.map",
+    "static/js/2.47864795.chunk.js": "/rohitdutt/static/js/2.47864795.chunk.js",
+    "static/js/2.47864795.chunk.js.map": "/rohitdutt/static/js/2.47864795.chunk.js.map",
+    "static/js/3.c7a3e019.chunk.js": "/rohitdutt/static/js/3.c7a3e019.chunk.js",
+    "static/js/3.c7a3e019.chunk.js.map": "/rohitdutt/static/js/3.c7a3e019.chunk.js.map",
+    "index.html": "/rohitdutt/index.html",
+    "static/css/main.afbbc47d.chunk.css.map": "/rohitdutt/static/css/main.afbbc47d.chunk.css.map",
+    "static/js/2.47864795.chunk.js.LICENSE.txt": "/rohitdutt/static/js/2.47864795.chunk.js.LICENSE.txt",
+    "static/media/Rohitdutt Parsai.0eef7481.pdf": "/rohitdutt/static/media/Rohitdutt Parsai.0eef7481.pdf",
+    "static/media/coding.a0215549.svg": "/rohitdutt/static/media/coding.a0215549.svg",
+    "static/media/discord.24f0d4f2.svg": "/rohitdutt/static/media/discord.24f0d4f2.svg",
+    "static/media/discord_after_hover.c97ea75d.svg": "/rohitdutt/static/media/discord_after_hover.c97ea75d.svg",
+    "static/media/facebook.a826e88c.svg": "/rohitdutt/static/media/facebook.a826e88c.svg",
+    "static/media/facebook_after_hover.582bab41.svg": "/rohitdutt/static/media/facebook_after_hover.582bab41.svg",
+    "static/media/github.70daa40b.svg": "/rohitdutt/static/media/github.70daa40b.svg",
+    "static/media/github_after_hover.b8bb2ce6.svg": "/rohitdutt/static/media/github_after_hover.b8bb2ce6.svg",
+    "static/media/heart.e580dace.svg": "/rohitdutt/static/media/heart.e580dace.svg",
+    "static/media/linkedin.5fd67e4b.svg": "/rohitdutt/static/media/linkedin.5fd67e4b.svg",
+    "static/media/linkedin_after_hover.ad0bbb71.svg": "/rohitdutt/static/media/linkedin_after_hover.ad0bbb71.svg",
+    "static/media/rdp-logo.762561b0.svg": "/rohitdutt/static/media/rdp-logo.762561b0.svg",
+    "static/media/telegram.85e7c7de.svg": "/rohitdutt/static/media/telegram.85e7c7de.svg",
+    "static/media/telegram_after_hover.397db694.svg": "/rohitdutt/static/media/telegram_after_hover.397db694.svg",
+    "static/media/twitter.0693fc09.svg": "/rohitdutt/static/media/twitter.0693fc09.svg",
+    "static/media/twitter_after_hover.493ddc38.svg": "/rohitdutt/static/media/twitter_after_hover.493ddc38.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89c15f90.js",
+    "static/js/2.47864795.chunk.js",
+    "static/css/main.afbbc47d.chunk.css",
+    "static/js/main.5b066905.chunk.js"
+  ]
+}
