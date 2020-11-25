@@ -30,6 +30,7 @@
 
 .homeButton{
      margin: 50px 40px 80px 40px;
+     cursor: pointer;
      width: 100px;
      height: 45px;
      color: white;
@@ -76,7 +77,7 @@
 }
 
 .intro p{
-    font-size: 1.4vw;
+    font-size: 3vh;
     padding: 20px 60px 0 60px;
     text-align: justify;
     line-height: 1.7;
@@ -209,12 +210,11 @@
 
 .contactArea h1{
     font-size: 30px;
-    margin-top: 70px;
+    margin: 6% 5% 4% 38%;
     color: #7510F7;
 }
 
 .contactMe{
-    margin-top: 80px;
     display: flex;
     flex-direction: row;
 }
@@ -299,13 +299,13 @@
 
     .intro {
         width: 800px;
-        top: 115%;
+        top: 99%;
         left: 32%;
     }
 
     .intro p {
         padding: 5px 60px 0 60px;
-        font-size: 2.7vh;
+        font-size: 2.4vh;
     }
 
     .diffSkills div {
@@ -314,7 +314,7 @@
     }
 
     .diffSkills p {
-        font-size: 3vh;
+        font-size: 2.4vh;
     }
 
     .project {
@@ -324,7 +324,7 @@
     }
 
     .project p {
-        font-size: 3.7vh;
+        font-size: 3vh;
     }
 
     .project button {

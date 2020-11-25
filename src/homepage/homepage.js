@@ -19,6 +19,10 @@ import LinkedIntAfterHover from "../assets/linkedin_after_hover.svg";
 import GithubAfterHover from "../assets/github_after_hover.svg";
 import DiscordAfterHover from "../assets/discord_after_hover.svg";
 
+const handleEmailValidation = (email) =>{
+    return email.includes('@') && email.includes('.');
+}
+
 const Homepage = () => {
 
     const about = useRef(null);
@@ -28,6 +32,7 @@ const Homepage = () => {
     const [email, setEmail] = useState("");
     const [name, setName] = useState("");
     const [message, setMessage] = useState("");
+    let errorMessage = "";
 
 
     return (
@@ -167,11 +172,18 @@ const Homepage = () => {
             {/*for contact me area*/}
 
             <div ref={contact} className={classes.contactArea}>
-                <h1>Get in touch with me!</h1>
+                <div style={{display: "flex" , flexDirection: "row" , margin: "0 4% 2% 4%"}}>
+                    <div className={classes.error}>
+                        {
+                            errorMessage
+                        }
+                    </div>
+                    <h1>Get in touch with me!</h1>
+                </div>
                 <div className={classes.contactMe}>
                     <div className={classes.inputArea}>
                         <input
-                            type={'text'}
+                            type={'email'}
                             placeholder={'Your Email'}
                             onChange={(e) => {
                                 setEmail(e.target.value);
@@ -195,16 +207,25 @@ const Homepage = () => {
                         />
                         <button
                             onClick={() => {
-                                Axios.post("https://formspree.io/f/mzbkvkeo", {
-                                    Email: this.state.email,
-                                    Name: this.state.name,
-                                    Message: this.state.message,
-                                }).then((response) => {
-                                    console.log(response.data);
-                                }).catch(error => {
-                                    window.alert("Enter Valid Email!");
-                                    console.log(error.response);
-                                });
+                                if(!handleEmailValidation(email)){
+                                        window.alert("Oops! Looks like you entered invalid Email ");
+                                }else if(message === ""){
+                                        window.alert("Oops ! your message is empty")
+                                }else if(name === ""){
+                                        window.alert("Hey Alien ! Looks Like you dont have a name")
+                                }else {
+                                    Axios.post("https://formspree.io/f/mzbkvkeo", {
+                                        Email: email,
+                                        Name: name,
+                                        Message: message,
+                                    }).then((response) => {
+                                        window.alert("Message sent , i'll get in touch with you soon , Happy hacking!")
+                                        console.log(response.data);
+                                    }).catch(error => {
+                                        window.alert("Enter Valid Email!");
+                                        console.log(error.response);
+                                    });
+                                }
                             }}
                         >Send
                         </button>
@@ -274,9 +295,9 @@ const Homepage = () => {
 
                 </div>
                 <p className={classes.credits}>
-                    <img src={Made}/>
+                    <img alt={"Coded"} src={Made}/>
                     <span>with</span>
-                    <img src={Love}/>
+                    <img alt={"love"} src={Love}/>
                     <span>by Rohitdutt</span>
                 </p>
             </div>
