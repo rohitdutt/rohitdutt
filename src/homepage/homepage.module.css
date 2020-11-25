@@ -1,0 +1,429 @@
+.homepage{
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 850px;
+    background-color: #7510F7;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top{
+    height: 100px;
+    width: auto;
+}
+
+.top a{
+    padding-left: 130px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.top a:hover{
+    text-decoration: underline;
+}
+
+.homeButton{
+     margin: 50px 40px 80px 40px;
+     width: 100px;
+     height: 45px;
+     color: white;
+     font-size: 1vw;
+     border: 2px solid white;
+     background-color: #7510F7;
+     border-radius: 20px;
+     transition: all 600ms ease;
+ }
+
+.homeButton:hover{
+    background-color: white;
+    color: #7510F7;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.rdpLogo{
+    padding-top: 100px;
+    width: 300px;
+    height: auto;
+}
+
+.typingText{
+    padding-top: 200px;
+}
+
+
+/****** Intro Area ******/
+
+.intro{
+    border-radius: 15px;
+    top: 103%;
+    left: 7%;
+    position: absolute;
+    width: 85%;
+    height: 350px;
+    box-shadow: 2px 2px 5px gray;
+    border: 0.5 solid gray;
+    background-color: white;
+}
+
+.intro p{
+    font-size: 1.4vw;
+    padding: 20px 60px 0 60px;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.intro h1{
+    color: #7510F7;
+    padding-top: 20px;
+}
+
+
+/****** skill area ******/
+
+
+.skillArea{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+.skillShowcase{
+    margin-top: 250px;
+}
+
+.skillShowcase h2{
+    color: #7510F7;
+    padding-bottom: 40px;
+}
+
+.diffSkills h3{
+    color: #7510F7;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.diffSkills p{
+    font-size: 1.2vw;
+    text-align: left;
+}
+
+.diffSkills{
+    display: flex;
+    flex-direction: row;
+}
+
+.diffSkills div{
+    box-shadow: 2px 2px 5px gray;
+    border: 0.5 solid gray;
+    border-radius: 15px;
+    margin-left: 85px;
+    padding: 20px 100px 160px 80px;
+    width: 150px;
+    height: 300px;
+    background-color: white;
+}
+
+
+/****** Project Area ******/
+
+.projectArea{
+    height: 680px;
+    width: 100%;
+    background-color: #7510F7;
+}
+
+.projectArea h1{
+    padding-top: 80px;
+    color: white;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+}
+
+.project button{
+    background-color: white;
+    margin-top: 40px;
+    width: 120px;
+    border: none;
+    font-size: 1.6vw;
+    height: 40px;
+    color: #7510F7;
+    text-decoration: underline;
+}
+
+.project button:hover{
+    text-decoration: none;
+}
+
+.project h2{
+    padding-top: 15px;
+    color: #7510F7;
+}
+
+.project{
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px gray;
+    border: 0.5 solid gray;
+    margin: 80px;
+}
+
+.project p{
+    text-align: justify;
+    font-size: 1.4vw;
+    padding: 0 15px 0 15px;
+    line-height: 1.3;
+}
+
+.line{
+    height: 1px;
+    background-color: #7510F7;
+    width: 10.0em;
+    margin: 0 auto 25px;
+
+}
+
+
+
+/****** Contact Area ******/
+
+.contactArea{
+    background-color: white;
+    height: 600px;
+    width: 100%;
+}
+
+.contactArea h1{
+    font-size: 30px;
+    margin-top: 70px;
+    color: #7510F7;
+}
+
+.contactMe{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.inputArea{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputArea input{
+    width: 550px;
+    height: 23px;
+    margin-top: 20px;
+    border: 1px solid #7510F7;
+}
+
+.inputArea input:focus{
+    outline: none !important;
+    border: 2px solid #7510F7;
+    box-shadow: 0 0 15px #7510F7;
+}
+
+.inputArea button{
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    color: #7510F7;
+    border: 1px solid #7510F7;
+}
+
+.inputArea button:hover{
+    outline: none !important;
+    border: 2px solid #7510F7;
+    box-shadow: 0 0 15px #7510F7;
+    font-size: 1.1vw;
+}
+
+.inputArea textarea{
+    height: 200px;
+    width: 550px;
+    margin-top: 20px;
+    border: 1px solid #7510F7;
+}
+
+.inputArea textarea:focus{
+    outline: none !important;
+    border: 2px solid #7510F7;
+    box-shadow: 0 0 15px #7510F7;
+}
+
+.socialAccounts{
+    margin: 85px 52px 0 100px;
+    padding-left: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.credits img{
+    margin-top: 30px;
+    width: 15px;
+    height: 15px;
+}
+.credits span{
+    padding: 8px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .homeButton {
+        font-size: 3vh;
+        margin: 50px 15px 10px 20px;
+        width: 100px;
+    }
+
+    .top a {
+        padding-left: 60px;
+    }
+
+    .homepage {
+        width: 1000px;
+    }
+
+    .intro {
+        width: 800px;
+        top: 115%;
+        left: 32%;
+    }
+
+    .intro p {
+        padding: 5px 60px 0 60px;
+        font-size: 2.7vh;
+    }
+
+    .diffSkills div {
+        width: 120px;
+        margin: 0 2% 1% 2%;
+    }
+
+    .diffSkills p {
+        font-size: 3vh;
+    }
+
+    .project {
+        width: 280px;
+        height: 420px;
+        margin: 3% 0.5% auto 3.8%;
+    }
+
+    .project p {
+        font-size: 3.7vh;
+    }
+
+    .project button {
+        font-size: 5vw;
+    }
+
+    .contactMe {
+        flex-direction: column;
+    }
+
+    .inputArea {
+        margin: 20px 40px 20px 230px;
+    }
+
+    .socialAccounts {
+        margin: 7% 3% 3% 5%;
+        width: 35px;
+        height: 35px;
+    }
+
+    .credits img {
+        margin: 2% 0.5% 0 0.5%;
+    }
+
+    .credits span {
+        padding: 0 2% 5% 1.2%;
+    }
+}
+
+
+
+
+/*@media only screen and (max-device-width: 1224px) {*/
+
+/*    .homeButton{*/
+/*        font-size: 6vw;*/
+/*        margin: 50px 15px 10px 20px;*/
+/*        width: 100px;*/
+/*    }*/
+
+/*    .top a{*/
+/*        padding-left: 60px;*/
+/*    }*/
+
+/*    .homepage{*/
+/*        width: 1000px;*/
+/*    }*/
+
+/*    .intro{*/
+/*        width: 800px;*/
+/*        top: 115%;*/
+/*        left: 32%;*/
+/*    }*/
+
+/*    .intro p{*/
+/*        font-size: 4.2vw;*/
+/*    }*/
+
+/*    .diffSkills div{*/
+/*        width: 120px;*/
+/*        margin: 0 2% 1% 2%;*/
+/*    }*/
+
+/*    .diffSkills p{*/
+/*        font-size: 5vw;*/
+/*    }*/
+
+/*    .project{*/
+/*        width: 280px;*/
+/*        height: 420px;*/
+/*        margin: 3% 0.5% auto 3.8%;*/
+/*    }*/
+
+/*    .project p{*/
+/*        font-size: 6.5vw;*/
+/*    }*/
+
+/*    .project button{*/
+/*        font-size: 5vw;*/
+/*    }*/
+
+/*    .contactMe{*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    .inputArea{*/
+/*        margin: 20px 40px 20px 230px;*/
+/*    }*/
+
+/*    .socialAccounts{*/
+/*        margin: 7% 3% 3% 5%;*/
+/*        width: 35px;*/
+/*        height: 35px;*/
+/*    }*/
+
+/*    .credits img{*/
+/*        margin: 2% 0.5% 0 0.5%;*/
+/*    }*/
+/*    .credits span{*/
+/*        padding: 0 2% 5% 1.2%;*/
+/*    }*/
+/*}*/

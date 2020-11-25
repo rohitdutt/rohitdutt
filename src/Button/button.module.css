@@ -1,0 +1,16 @@
+.homePageHeader{
+    height: 35px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    padding-top: 12px;
+}
+.homePageHeader:hover{
+    background-color: white;
+    color: #7510F7;
+}
+
+
+
+
