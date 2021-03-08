@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rohitdutt/static/css/main.c1a844a8.chunk.css",
-    "main.js": "/rohitdutt/static/js/main.9899240d.chunk.js",
-    "main.js.map": "/rohitdutt/static/js/main.9899240d.chunk.js.map",
+    "main.js": "/rohitdutt/static/js/main.65e558b2.chunk.js",
+    "main.js.map": "/rohitdutt/static/js/main.65e558b2.chunk.js.map",
     "runtime-main.js": "/rohitdutt/static/js/runtime-main.89c15f90.js",
     "runtime-main.js.map": "/rohitdutt/static/js/runtime-main.89c15f90.js.map",
     "static/js/2.47864795.chunk.js": "/rohitdutt/static/js/2.47864795.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/rohitdutt/index.html",
     "static/css/main.c1a844a8.chunk.css.map": "/rohitdutt/static/css/main.c1a844a8.chunk.css.map",
     "static/js/2.47864795.chunk.js.LICENSE.txt": "/rohitdutt/static/js/2.47864795.chunk.js.LICENSE.txt",
-    "static/media/Rohitdutt Parsai.28150ebe.pdf": "/rohitdutt/static/media/Rohitdutt Parsai.28150ebe.pdf",
+    "static/media/Rohitdutt Parsai.bed53dc7.pdf": "/rohitdutt/static/media/Rohitdutt Parsai.bed53dc7.pdf",
     "static/media/coding.a0215549.svg": "/rohitdutt/static/media/coding.a0215549.svg",
     "static/media/discord.24f0d4f2.svg": "/rohitdutt/static/media/discord.24f0d4f2.svg",
     "static/media/discord_after_hover.c97ea75d.svg": "/rohitdutt/static/media/discord_after_hover.c97ea75d.svg",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.89c15f90.js",
     "static/js/2.47864795.chunk.js",
     "static/css/main.c1a844a8.chunk.css",
-    "static/js/main.9899240d.chunk.js"
+    "static/js/main.65e558b2.chunk.js"
   ]
 }
