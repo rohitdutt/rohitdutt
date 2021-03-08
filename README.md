@@ -4,7 +4,7 @@
   </h1>
   <h3>a Full Stack Developer</h3>
   <a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
-	 <img align="right" alt="GIF" 					src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/	gif3.gif" width="" style="max-width:100%;">
+  	<img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="100" style="max-width:100%;">
  </a>
  <div>
 	 <h3>
