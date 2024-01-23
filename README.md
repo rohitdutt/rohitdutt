@@ -50,7 +50,7 @@
 	   </li>
 	   <li>
 			 <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/271/globe-with-meridians_1f310.png" width=18 height=18/> 
-       React.js | Spring | Node.js | React Native | Express.js
+       React.js | Spring | Node.js | React Native | Express.js | Angular
 	   </li>
 	   <li>
 			 <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e2.png" width=18 height=18/> Postgresql | Mysql 
